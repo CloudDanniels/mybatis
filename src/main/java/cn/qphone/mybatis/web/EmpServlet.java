@@ -29,10 +29,4 @@ public class EmpServlet {
         empService.delete(id);
     }
 
-
-    public void trans() {
-        Emp chen = get(1212);
-        Emp lee = get(1206);
-        empService.trans(chen, lee, 1000000.0);
-    }
 }

@@ -7,6 +7,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 public class MyBatisUtils {
+
     private static final String CORE_CONFIG_FILE = "mybatis-config.xml";
     private static final SqlSessionFactory sqlSessionFactory;
 

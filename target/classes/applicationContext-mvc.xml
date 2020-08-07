@@ -13,5 +13,5 @@
        <!--1. 开启spring ioc的注解方式开发，这一步在当前或者更新的版本可省略  -->
        <context:annotation-config />
        <!--2. 开启组件扫描 -->
-       <context:component-scan base-package="cn.qphone.mybatis.web" />
+       <context:component-scan base-package="cn.qphone.mybatis.service.impl" />
 </beans>
